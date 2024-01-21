@@ -1,0 +1,259 @@
+h2:hover {
+  cursor: pointer;
+  color: black;
+}
+@media screen and (max-width: 750px) {
+  .ellipse-frame {
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+  .desktop-3 {
+    flex-wrap: wrap;
+    padding: 40px var(--padding-xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .frame-line {
+    gap: 46px;
+  }
+  .cityscape-living,
+  .ecohaven-residences,
+  .harmony-homes,
+  .lorem-ipsum-dolor1,
+  .skyvista-heights,
+  .urbane-oasis {
+    font-size: var(--font-size-xl);
+  }
+}
+.frame-text-child {
+  position: relative;
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(5px);
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 0;
+}
+.chevron-right-icon2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  left: 35px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+  z-index: 1;
+}
+.dreams-frame-icon {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  min-height: 110px;
+  z-index: 2;
+}
+.dreams-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+.frame-text {
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(5px);
+  height: 110px;
+  padding: var(--padding-16xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.dreams-frame,
+.frame-text {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame-image {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cityscape-living {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.urbane-oasis {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.harmony-homes {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.b-h-k-frame3 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 2;
+}
+.b-h-k-frame2 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 2;
+}
+.b-h-k-frame1 {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 2;
+}
+.b-h-k-frame {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 2;
+}
+
+.ecohaven-residences {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkgray);
+}
+.vector-frame {
+  align-self: stretch;
+  gap: 29px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-galyon-book);
+}
+.active-frame {
+  color: var(--color-black); /* active*/ /* active*/ /* active*/ /* active*/
+}
+
+.ecohaven-residences,
+.projects1 {
+  position: relative;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.projects1 {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+.frame-line {
+  align-self: stretch;
+  gap: 93px;
+}
+.image-frame1 {
+  width: 299px;
+  padding: 0 0 34px;
+  box-sizing: border-box;
+}
+.frame-line,
+.image-frame1,
+.vector-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.desktop-3 {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 62px 0 0 var(--padding-31xl);
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.skyvista-heights {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+
+.image-4-icon {
+  position: absolute;
+  margin: 0 !important;
+  /* height: 100%; */
+  height: auto;
+  max-width: 900px;
+  width: 100%;
+  transform: translateX(341px);
+  top: 0;
+  right: 0;
+  /* bottom: 0; */
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.desktop-3-child {
+  position: relative;
+  background-color: var(--white);
+  width: 390px;
+  height: 579px;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.desktop-3,
+.ellipse-frame {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ellipse-frame {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 81px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--yg);
+  font-family: var(--font-inter);
+}

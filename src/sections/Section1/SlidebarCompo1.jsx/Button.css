@@ -1,0 +1,19 @@
+.frame-item,
+.rectangle-parent {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-16xl);
+  background-color: var(--base-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}

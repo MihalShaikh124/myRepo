@@ -1,0 +1,517 @@
+@media screen and (max-width: 450px) {
+  .text-block-area1 {
+    gap: var(--gap-2xl);
+  }
+  .text-block-area {
+    gap: var(--gap-2xl);
+  }
+  .bhk1 {
+    font-size: var(--font-size-base);
+  }
+  .bhk2 {
+    font-size: var(--font-size-base);
+  }
+  .bhk {
+    font-size: var(--font-size-base);
+  }
+  .image-11-parent {
+    gap: var(--gap-2xl);
+  }
+  .our-apartments {
+    font-size: var(--font-size-11xl);
+  }
+  .apartments1 {
+    font-size: var(--font-size-lg);
+  }
+}
+@media screen and (max-width: 750px) {
+  .image-frame2 {
+    flex-wrap: wrap;
+  }
+  .image-11-parent,
+  .image-frame2 {
+    min-width: 100%;
+  }
+  .our-apartments {
+    font-size: var(--font-size-21xl);
+  }
+  .apartments1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frame-div {
+    flex-wrap: wrap;
+  }
+  .image-11-parent {
+    flex: 1;
+  }
+}
+
+.frame-container {
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.apartments1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.subheading-frame,
+.title-area {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subheading-frame {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.apartments-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 33px;
+}
+.title-area {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 29px 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 232px;
+}
+.subheading-frame-inner {
+  width: 73px;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+}
+.our-apartments {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-weight: 400;
+  font-family: var(--font-galyon-book);
+  color: var(--color-black);
+}
+.line-div {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--yg);
+  box-sizing: border-box;
+  height: 1px;
+}
+.frame-div,
+.image-frame2,
+.text-block-area1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-div,
+.image-frame2 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-div {
+  align-self: stretch;
+  padding: 0 2px;
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+}
+.bhk-parent,
+.image-11-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image-11-parent {
+  width: 433px;
+  height: 521px;
+  align-items: flex-start;
+  gap: var(--gap-24xl);
+  min-width: 433px;
+  max-width: 100%;
+}
+.image-11-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bhk-parent {
+  align-self: stretch;
+  height: 46px;
+  align-items: center;
+  gap: var(--gap-3xl);
+}
+.bhk {
+  position: relative;
+  font-weight: 500;
+}
+.bhk1 {
+  position: relative;
+  font-weight: 500;
+}
+.bhk2 {
+  position: relative;
+  font-weight: 500;
+}
+.bhk-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-7xs);
+}
+.logo-frame {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--yg);
+  box-sizing: border-box;
+  height: 1px;
+}
+.image-frame2 {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 575px;
+}
+.form-control,
+.text-block-area {
+  display: flex;
+  justify-content: flex-start;
+}
+.text-block-area {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-24xl);
+  min-width: 281px;
+  max-width: 100%;
+}
+.text-block-area1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-24xl);
+  min-width: 281px;
+}
+.image-12-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 432px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.form-control {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 8px;
+}
+.image-13-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 432px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.checkbox-frame,
+.radio-button-group2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkbox-frame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-height: 145px;
+  font-size: var(--font-size-mini);
+}
+.radio-button-group {
+  flex: 1;
+  position: relative;
+  height: 123px;
+  min-width: 325px;
+  max-width: 100%;
+}
+.dropdown-menu-area {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  border-top: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 434px;
+  height: 1px;
+}
+.toggle-switch-icon {
+  position: absolute;
+  top: 17.5px;
+  left: 27px;
+  width: 60px;
+  height: 60px;
+}
+.bathrooms {
+  position: absolute;
+  top: 87.5px;
+  left: 12px;
+  font-weight: 300;
+}
+.toggle-switch {
+  top: 0;
+  left: 148px;
+  border-right: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 1px;
+  height: 124px;
+  z-index: 1;
+}
+.group-icon,
+.sf,
+.toggle-switch {
+  position: absolute;
+}
+.group-icon {
+  top: 17.5px;
+  left: 194px;
+  width: 60px;
+  height: 60px;
+}
+.sf {
+  top: 87.5px;
+  left: 197.5px;
+  font-weight: 300;
+}
+.toggle-switch1 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  border-right: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 1px;
+  height: 124px;
+  z-index: 1;
+}
+.toggle-switch-icon1 {
+  position: absolute;
+  top: 17.5px;
+  left: 354.5px;
+  width: 60px;
+  height: 60px;
+}
+.badroom {
+  position: absolute;
+  top: 87.5px;
+  left: 346px;
+  font-weight: 300;
+}
+.radio-button-group1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 325px;
+  max-width: 100%;
+}
+.desktop-frame-group,
+.radio-button-group-child {
+  border-top: 1px solid var(--yg);
+  box-sizing: border-box;
+  height: 1px;
+}
+.radio-button-group-child {
+  align-self: stretch;
+  position: relative;
+}
+.desktop-frame-group-parent {
+  align-self: stretch;
+  position: relative;
+  height: 123px;
+}
+.desktop-frame-group {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  width: 434px;
+}
+.image-frame-rectangle {
+  position: absolute;
+  top: 17.5px;
+  left: 27px;
+  width: 60px;
+  height: 60px;
+}
+.bathrooms1 {
+  position: absolute;
+  top: 87.5px;
+  left: 12px;
+  font-weight: 300;
+}
+.image-frame-rectangle1 {
+  position: absolute;
+  top: 0;
+  left: 148px;
+  border-right: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 1px;
+  height: 124px;
+  z-index: 1;
+}
+.group-icon1 {
+  position: absolute;
+  top: 17.5px;
+  left: 194px;
+  width: 60px;
+  height: 60px;
+}
+.sf1 {
+  position: absolute;
+  top: 87.5px;
+  left: 197.5px;
+  font-weight: 300;
+}
+.sf-line-vector-group {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  border-right: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 1px;
+  height: 124px;
+  z-index: 1;
+}
+.image-frame-rectangle2 {
+  position: absolute;
+  top: 17.5px;
+  left: 354.5px;
+  width: 60px;
+  height: 60px;
+}
+.badroom1 {
+  position: absolute;
+  top: 87.5px;
+  left: 346px;
+  font-weight: 300;
+}
+.radio-button-group2 {
+  flex: 1;
+  flex-direction: column;
+  min-width: 325px;
+}
+.frame-child1,
+.radio-button-group-item {
+  border-top: 1px solid var(--yg);
+  box-sizing: border-box;
+  height: 1px;
+}
+.radio-button-group-item {
+  align-self: stretch;
+  position: relative;
+}
+.line-parent {
+  align-self: stretch;
+  position: relative;
+  height: 123px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  width: 434px;
+}
+.vector-icon {
+  position: absolute;
+  top: 17.5px;
+  left: 27px;
+  width: 60px;
+  height: 60px;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 17.5px;
+  left: 354.5px;
+  width: 60px;
+  height: 60px;
+}
+.bathrooms2 {
+  position: absolute;
+  top: 87.5px;
+  left: 12px;
+  font-weight: 300;
+}
+.frame-child2 {
+  position: absolute;
+  top: 0;
+  left: 148px;
+  border-right: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 1px;
+  height: 124px;
+  z-index: 1;
+}
+.group-icon2 {
+  position: absolute;
+  top: 17.5px;
+  left: 194px;
+  width: 60px;
+  height: 60px;
+}
+.sf2 {
+  position: absolute;
+  top: 87.5px;
+  left: 197.5px;
+  font-weight: 300;
+}
+.frame-child3 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  border-right: 1px solid var(--yg);
+  box-sizing: border-box;
+  width: 1px;
+  height: 124px;
+  z-index: 1;
+}
+.badroom2 {
+  position: absolute;
+  top: 87.5px;
+  left: 346px;
+  font-weight: 300;
+}
+.frame-child4 {
+  position: relative;
+  width: 207px;
+  height: 93px;
+}

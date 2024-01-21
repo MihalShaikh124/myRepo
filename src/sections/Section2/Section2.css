@@ -1,0 +1,199 @@
+@media screen and (max-width: 750px) {
+  .the-building-you {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-building-you {
+    font-size: var(--font-size-9xl);
+    line-height: 32px;
+  }
+  .cityscape-living,
+  .ecohaven-residences,
+  .harmony-homes,
+  .lorem-ipsum-dolor1,
+  .skyvista-heights,
+  .urbane-oasis {
+    font-size: var(--font-size-xl);
+  }
+}
+.line-frame-icon {
+  position: absolute;
+  top: 507px;
+  left: 0;
+  width: 1265.3px;
+  height: 393.4px;
+  overflow: hidden;
+  object-fit: contain;
+  opacity: 0.2;
+}
+.image-2-icon,
+.image-3-icon {
+  position: absolute;
+  top: 0;
+  left: 1033px;
+  width: 611px;
+  height: 773px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-3-icon {
+  top: 89px;
+  left: 813px;
+  width: 467px;
+  height: 595px;
+  z-index: 2;
+}
+
+.image-holder,
+.image-holder-child {
+  position: absolute;
+  top: 101.5px;
+  left: 254px;
+  width: 93px;
+  height: 1px;
+}
+.image-holder {
+  top: 0;
+  left: -204px;
+  width: 1644px;
+  height: 900px;
+}
+.lorem-ipsum-dolor1 {
+  margin: 0;
+  top: 467px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+
+.lorem-ipsum-dolor,
+.lorem-ipsum-dolor1 {
+  position: absolute;
+  left: 50px;
+  display: inline-block;
+  width: 453px;
+}
+
+.lorem-ipsum-dolor {
+  top: 248px;
+}
+
+.lorem-ipsum-dolor1 {
+  top: 420px;
+}
+.welcome-home {
+  position: absolute;
+  top: 93px;
+  left: 164px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--light-yellow);
+}
+
+.the-building-you {
+  margin: 0;
+  position: absolute;
+  top: 133px;
+  left: 50px;
+  font-size: 47px;
+  line-height: 53px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-family: var(--font-galyon-book-italic);
+  width: 506px;
+}
+
+.desktop-2-child,
+.frame-parent,
+.image-frame {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.desktop-2-child {
+  position: relative;
+  border-top: 6px solid var(--color-gray-300);
+  width: 617px;
+  height: 6px;
+  display: none;
+}
+.the-building-you-never-need-to-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #b89b4c;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.mahalaxmi-home-maker-all-right {
+  align-self: stretch;
+  position: relative;
+  height: 773px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.mahalaxmi-home-maker-all-right-child {
+  position: absolute;
+  top: 3px;
+  left: 829px;
+  width: 432px;
+  height: 6px;
+  display: none;
+}
+
+/*  */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes scaleDown {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.7);
+  }
+  95% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes reveal-info {
+  0% {
+    height: 0;
+  }
+  5% {
+    height: 350px;
+  }
+  95% {
+    height: 350px;
+  }
+  100% {
+    height: 0;
+  }
+}

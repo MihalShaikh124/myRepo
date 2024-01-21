@@ -1,0 +1,255 @@
+@media screen and (max-width: 450px) {
+  .email,
+  .name,
+  .phone-number,
+  .submit {
+    font-size: var(--font-size-base);
+  }
+  .desktop-main-frame {
+    gap: var(--gap-6xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .enquiry1 {
+    font-size: var(--font-size-base);
+  }
+  .sales-gallery-is {
+    font-size: var(--font-size-11xl);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .desktop-main-frame {
+    gap: var(--gap-31xl);
+    padding: 116px 117px 58px var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .sales-gallery-is {
+    font-size: var(--font-size-21xl);
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .desktop-6 {
+    height: auto;
+  }
+  .name-phone-email-fields-parent {
+    flex-wrap: wrap;
+  }
+  .name-phone-email-fields,
+  .name-phone-email-fields2 {
+    flex: 1;
+  }
+}
+
+.desktop-6,
+.desktop-main-frame {
+  flex-shrink: 0;
+  display: flex;
+  max-width: 100%;
+}
+.desktop-6 {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 450px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.desktop-main-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 178px var(--padding-216xl) 89px 72px;
+  box-sizing: border-box;
+  gap: var(--gap-82xl);
+  background-image: url(./public/image-14@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-14-icon {
+  position: relative;
+  width: 1440px;
+  height: 565px;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.enquiry-frame-group {
+  width: 897px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.enquiry-parent {
+  width: 734px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.enquiry1,
+.frame-child5 {
+  position: relative;
+  z-index: 1;
+}
+.enquiry1 {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+.frame-child5 {
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 64px;
+  height: 1px;
+}
+.sales-gallery-is {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-style: italic;
+  font-weight: 400;
+  font-family: var(--font-galyon-book-italic);
+  z-index: 1;
+}
+.address-text-frame,
+.name-phone-email-fields-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.name-phone-email-fields-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.name-phone-email-fields-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.name-phone-email-fields {
+  flex: 1;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  min-width: 218px;
+  max-width: 100%;
+}
+.name {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: relative;
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  opacity: 0.5;
+  z-index: 1;
+}
+.submit-arrowdownleft-button {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 1;
+}
+.name-phone-email-fields1 {
+  width: 316px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.phone-number {
+  position: relative;
+  opacity: 0.5;
+  z-index: 1;
+}
+.name-phone-email-fields-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 1;
+}
+.name-phone-email-fields2 {
+  flex: 1;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  min-width: 214px;
+  max-width: 100%;
+}
+.email {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: relative;
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  opacity: 0.5;
+  z-index: 1;
+}
+.name-phone-email-fields-item {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 1;
+}
+.address-text-frame {
+  align-items: flex-start;
+  gap: 3px;
+}
+.submit {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.arrow-down-left-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 24px;
+  z-index: 2;
+}

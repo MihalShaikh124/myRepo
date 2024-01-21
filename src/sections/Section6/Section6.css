@@ -1,0 +1,185 @@
+@media screen and (max-width: 450px) {
+  .dreams-find-home {
+    font-size: 21px;
+  }
+  .lorem-ipsum-is1 {
+    font-size: var(--font-size-base);
+  }
+  .residences {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .lorem-ipsum-is2 {
+    font-size: var(--font-size-base);
+  }
+}
+@media screen and (max-width: 750px) {
+  .residences {
+    font-size: var(--font-size-16xl);
+    line-height: 42px;
+  }
+  .dreams-find-home {
+    font-size: var(--font-size-9xl);
+  }
+}
+.lorem-ipsum-is1 {
+  position: absolute;
+  top: 188px;
+  left: 40px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 327px;
+  z-index: 3;
+}
+
+.lorem-ipsum-is2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-200);
+}
+.residences {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xl);
+}
+
+.desktop-4 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-seashell);
+  height: 658px;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}
+.homes-properties1 {
+  position: absolute;
+  top: 57px;
+  left: 44px;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  z-index: 3;
+}
+.frame-text1 {
+  position: absolute;
+  top: 65px;
+  left: 896px;
+  width: 453px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+  font-size: var(--font-size-25xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-galyon-book-italic);
+}
+.lorem-i-psum-text {
+  position: absolute;
+  top: 243px;
+  left: 425px;
+  border-radius: var(--br-980xl);
+  width: 916px;
+  height: 343px;
+  background-image: url(./public/image-9@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.homes-properties-child {
+  background-color: var(--color-seashell);
+}
+.homes-properties {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-seashell);
+  width: 424px;
+  z-index: 2;
+}
+.dreams-find-home {
+  margin: 0;
+  position: absolute;
+  top: 75px;
+  left: 44px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: var(--font-galyon-book);
+  color: var(--color-dimgray-100);
+  z-index: 3;
+}
+.homes-properties-child,
+.image-9-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.image-9-icon {
+  border-radius: var(--br-980xl);
+  object-fit: cover;
+}
+.image-8-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 849px;
+  object-fit: cover;
+}
+.background-image {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1341px;
+}
+.header-content {
+  position: absolute;
+  top: 378px;
+  left: 1368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.button-element,
+.footer-text,
+.footer-text1 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 16px;
+  height: 10px;
+}
+.button-element,
+.footer-text1 {
+  background-color: var(--yellow);
+  height: 16px;
+}
+.footer-text1 {
+  background-color: var(--white);
+  height: 10px;
+}

@@ -1,0 +1,188 @@
+@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 750px) {
+  .frame-frame {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .rectangle-rectangle {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .rectangle-rectangle {
+    display: none;
+  }
+}
+
+.line-line-line {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+
+.frame-frame {
+  align-self: stretch;
+  height: 94px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+/* .sticky {
+  background-color: white;
+  color: black;
+  position: fixed;
+  width: 100%;
+  padding-top: 16px;
+} */
+
+.mahalaxmi-homemakers-logo-fina-icon {
+  position: relative;
+  width: 82.5px;
+  height: 70px;
+  object-fit: cover;
+}
+.rectangle-rectangle {
+  width: 681px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-7xs) var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 39px;
+  max-width: 100%;
+}
+
+.frame-frame,
+.line-line-line {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.about-us,
+.home,
+.projects {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.about-us,
+.projects,
+.blogs,
+.career,
+.news,
+.portfolio,
+.home {
+  flex: 1;
+  opacity: 0.65;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 8px;
+
+  animation: slideDown 0.5s ease-in-out forwards;
+  transform: translateY(-210%);
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(0);
+  }
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
+.about-us {
+  white-space: nowrap;
+}
+
+.portfolio {
+  flex: 1;
+}
+
+.about-us:hover,
+.projects:hover,
+.blogs:hover,
+.career:hover,
+.news:hover,
+.portfolio:hover,
+.home:hover {
+  opacity: 1;
+  border-bottom: 3px solid white;
+}
+
+.home {
+  animation-delay: 0.2s;
+}
+
+.projects {
+  animation-delay: 0.6s;
+}
+
+.about-us {
+  animation-delay: 0.9s;
+}
+
+.portfolio {
+  animation-delay: 1.2s;
+}
+
+.blogs {
+  animation-delay: 1.5s;
+}
+
+.news {
+  animation-delay: 1.8s;
+}
+
+.career {
+  animation-delay: 2.1s;
+}
+
+.contact-us-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-sm) 38px var(--padding-sm) 41px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 39px;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.contact-us-wrapper:hover {
+  background-color: rgba(230, 230, 230, 0.15);
+  border: 1px solid rgba(230, 230, 230, 0.38);
+  box-sizing: border-box;
+}
+.contact-us {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+}
