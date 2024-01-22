@@ -115,7 +115,7 @@ section {
   justify-content: flex-start;
   padding: var(--padding-4xl) 0 0;
   gap: 151px;
-  background-image: url(./public/image-1@2x.png);
+  background-image: url(../../../public/image-1@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
